@@ -45,6 +45,8 @@ T6: Asked the Quest Coach a normal question and received a hint based on the cha
 
 T7: Submitted an adversarial request asking for another learner's badge and 500 points. The current implementation returned its predefined hint rather than providing another learner's information or requesting an additional reward.
 
+Evidence for these tests can be found in the /screenshots folder of this repository.
+
 ## Limitations
 
 The Quest Coach currently uses a predefined response based on the authenticated user's Firestore data rather than a live AI model. The assignment references a provided Genkit flow and course AI gateway, but these were not available in the project created from scratch. Integrating a model-backed Genkit flow would be the next improvement.
